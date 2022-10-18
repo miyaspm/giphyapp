@@ -1,0 +1,27 @@
+// .filters {
+//   mat-form-field {
+//     div.mat-form-field-flex {
+//       align-items: flex-end;
+//     }
+
+//     div.mat-form-field-prefix {
+//       padding-right: 12px !important;
+//     }
+//   }
+// }
+
+.image-search {
+  .search-box {
+    font-size: 12px;
+    margin-top: 12px;
+  }
+}
+
+::ng-deep .mat-form-field-outline-start {
+  border-radius: 28px 0 0 28px !important;
+  min-width: 28px !important;
+}
+
+::ng-deep .mat-form-field-outline-end {
+  border-radius: 0 28px 28px 0 !important;
+}
